@@ -17,7 +17,7 @@ foreach(FILENAME ${FILENAMES})
 
     set(TARGET_NAME ${BASENAME})
 
-    add_executable(${TARGET_NAME} ${FILENAME} )
+    add_executable(${TARGET_NAME} ${FILENAME})
     if (WIN32)
         file(MAKE_DIRECTORY "${PROJECT_BINARY_DIR}/cryptominisat/cmsat5-src/Debug")
         file(MAKE_DIRECTORY "${PROJECT_BINARY_DIR}/cryptominisat/cmsat5-src/Release")
@@ -64,5 +64,5 @@ foreach(FILENAME ${FILENAMES})
 endforeach()
 
 # Make sure that there are no linking issues
-add_executable(link_test link_test1.cpp link_test2.cpp )
+add_executable(link_test link_test1.cpp link_test2.cpp)
 target_link_libraries(link_test percy)
