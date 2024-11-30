@@ -1,0 +1,10 @@
+cd /mnt/yourpath/percy-lut-linux
+cd percy
+mkdir build
+cd build
+cmake .. -DPERCY_TEST=ON # Only on Unix
+make # Only on Unix
+cd test
+./synthesis_LUT
+
+g++ (at least version 4.9.0) and cmake are required

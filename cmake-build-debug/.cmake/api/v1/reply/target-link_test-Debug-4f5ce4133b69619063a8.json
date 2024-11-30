@@ -1,0 +1,206 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test/link_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"test/CMakeLists.txt",
+			"include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ABC_NAMESPACE=pabc"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ABC_NO_USE_READLINE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DISABLE_NAUTY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DISABLE_SATOKO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIN64"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "USE_SYRUP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/sheng/CLionProjects/percy/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sheng/CLionProjects/percy/kitty/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sheng/CLionProjects/percy/abc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sheng/CLionProjects/percy/syrup/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sheng/CLionProjects/percy/syrup"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "libabcsat::@3a985da74fe225b2045c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "syrup::@0e64a1357970869f87d0"
+		}
+	],
+	"id" : "link_test::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "abc/liblibabcsat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "syrup/libsyrup.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "link_test",
+	"nameOnDisk" : "link_test",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/link_test1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/link_test2.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

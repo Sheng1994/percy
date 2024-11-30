@@ -1,0 +1,18 @@
+Truth Table: 
+C8C8C8C8C8C8C8C8
+Input number: 6
+Inputs: 
+1 5 6
+0 2 7
+3 4 8
+6 7 9
+7 8 10
+6 8 11
+9 10 12
+10 11 13
+9 11 14
+Operators: 
+10 14 8 8 4 2 8 2 10 
+Outputs: 1
+14 
+
