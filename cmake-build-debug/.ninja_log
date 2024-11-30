@@ -1,0 +1,20 @@
+# ninja log v6
+3	8	1732953429089841075	syrup/CMakeFiles/syrup.dir/parallel/SolverCompanion.cc.o	ffa6fb180b6babb2
+3	10	1732953429089841075	syrup/CMakeFiles/syrup.dir/utils/System.cc.o	62e33e129eb03e07
+2	12	1732953429089841075	syrup/CMakeFiles/syrup.dir/parallel/ClausesBuffer.cc.o	fd5078b59d96cc6a
+3	13	1732953429089841075	syrup/CMakeFiles/syrup.dir/utils/Options.cc.o	b075a88555965d86
+2	13	1732953429089841075	syrup/CMakeFiles/syrup.dir/parallel/ParallelSolver.cc.o	f1248c6eadd65291
+3	13	1732953429089841075	syrup/CMakeFiles/syrup.dir/parallel/SharedCompanion.cc.o	381b92faebff449d
+4	13	1732953429089841075	abc/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o	ca6f2e5e2c21a5e8
+4	14	1732953429089841075	abc/CMakeFiles/libabcsat.dir/Glucose.cpp.o	6c458e4a4a04dd38
+4	14	1732953429089841075	abc/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o	dfc737fe82881d48
+1	14	1732953429089841075	syrup/CMakeFiles/syrup.dir/core/Solver.cc.o	2aeb6ae0962657de
+1	14	1732953429089841075	syrup/CMakeFiles/syrup.dir/simp/SimpSolver.cc.o	9eac9785ba11bd72
+2	14	1732953429089841075	syrup/CMakeFiles/syrup.dir/parallel/MultiSolvers.cc.o	a9f956f4270c170b
+3	15	1732953429089841075	syrup/CMakeFiles/syrup.dir/parallel/SolverConfiguration.cc.o	dd71e5eb79365950
+4	15	1732953429089841075	abc/CMakeFiles/libabcsat.dir/satSolver.cpp.o	948de6d89e9a0ca3
+8	16	1732953429089841075	abc/CMakeFiles/libabcsat.dir/satStore.cpp.o	38721d18c1ca6837
+16	264	1732953429099841082	abc/liblibabcsat.a	97d3d3dd8607d2b1
+15	268	1732953429099841082	syrup/libsyrup.a	60903000b026b236
+10	3491	1732953429089841075	test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o	b538dbe2a8ddb474
+3512	3657	1732953432599843687	test/synthesis_LUT	29f3fc6b1ee6f20b
