@@ -95,8 +95,6 @@ build syrup/CMakeFiles/syrup.dir/core/Solver.cc.o: CXX_COMPILER__syrup_unscanned
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/core
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/simp/SimpSolver.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/simp/SimpSolver.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/simp/SimpSolver.cc.o.d
@@ -104,8 +102,6 @@ build syrup/CMakeFiles/syrup.dir/simp/SimpSolver.cc.o: CXX_COMPILER__syrup_unsca
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/simp
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/parallel/ClausesBuffer.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/parallel/ClausesBuffer.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/parallel/ClausesBuffer.cc.o.d
@@ -113,8 +109,6 @@ build syrup/CMakeFiles/syrup.dir/parallel/ClausesBuffer.cc.o: CXX_COMPILER__syru
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/parallel
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/parallel/MultiSolvers.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/parallel/MultiSolvers.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/parallel/MultiSolvers.cc.o.d
@@ -122,8 +116,6 @@ build syrup/CMakeFiles/syrup.dir/parallel/MultiSolvers.cc.o: CXX_COMPILER__syrup
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/parallel
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/parallel/ParallelSolver.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/parallel/ParallelSolver.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/parallel/ParallelSolver.cc.o.d
@@ -131,8 +123,6 @@ build syrup/CMakeFiles/syrup.dir/parallel/ParallelSolver.cc.o: CXX_COMPILER__syr
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/parallel
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/parallel/SharedCompanion.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/parallel/SharedCompanion.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/parallel/SharedCompanion.cc.o.d
@@ -140,8 +130,6 @@ build syrup/CMakeFiles/syrup.dir/parallel/SharedCompanion.cc.o: CXX_COMPILER__sy
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/parallel
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/parallel/SolverCompanion.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/parallel/SolverCompanion.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/parallel/SolverCompanion.cc.o.d
@@ -149,8 +137,6 @@ build syrup/CMakeFiles/syrup.dir/parallel/SolverCompanion.cc.o: CXX_COMPILER__sy
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/parallel
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/parallel/SolverConfiguration.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/parallel/SolverConfiguration.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/parallel/SolverConfiguration.cc.o.d
@@ -158,8 +144,6 @@ build syrup/CMakeFiles/syrup.dir/parallel/SolverConfiguration.cc.o: CXX_COMPILER
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/parallel
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/utils/Options.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/utils/Options.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/utils/Options.cc.o.d
@@ -167,8 +151,6 @@ build syrup/CMakeFiles/syrup.dir/utils/Options.cc.o: CXX_COMPILER__syrup_unscann
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/utils
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 build syrup/CMakeFiles/syrup.dir/utils/System.cc.o: CXX_COMPILER__syrup_unscanned_Debug /home/sheng/CLionProjects/percy/syrup/utils/System.cc || cmake_object_order_depends_target_syrup
   DEP_FILE = syrup/CMakeFiles/syrup.dir/utils/System.cc.o.d
@@ -176,8 +158,6 @@ build syrup/CMakeFiles/syrup.dir/utils/System.cc.o: CXX_COMPILER__syrup_unscanne
   INCLUDES = -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   OBJECT_FILE_DIR = syrup/CMakeFiles/syrup.dir/utils
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
-  TARGET_PDB = syrup/libsyrup.pdb
 
 
 # =============================================================================
@@ -192,9 +172,8 @@ build syrup/libsyrup.a: CXX_STATIC_LIBRARY_LINKER__syrup_Debug syrup/CMakeFiles/
   OBJECT_DIR = syrup/CMakeFiles/syrup.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = syrup/CMakeFiles/syrup.dir/syrup.pdb
   TARGET_FILE = syrup/libsyrup.a
-  TARGET_PDB = syrup/libsyrup.pdb
+  TARGET_PDB = syrup.a.dbg
 
 
 #############################################
@@ -331,8 +310,6 @@ build kitty/examples/CMakeFiles/gf16_inverse.dir/gf16_inverse.cpp.o: CXX_COMPILE
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/gf16_inverse.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/gf16_inverse.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/gf16_inverse.dir/
-  TARGET_PDB = kitty/examples/gf16_inverse.pdb
 
 
 # =============================================================================
@@ -348,9 +325,8 @@ build kitty/examples/gf16_inverse: CXX_EXECUTABLE_LINKER__gf16_inverse_Debug kit
   OBJECT_DIR = kitty/examples/CMakeFiles/gf16_inverse.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/gf16_inverse.dir/
   TARGET_FILE = kitty/examples/gf16_inverse
-  TARGET_PDB = kitty/examples/gf16_inverse.pdb
+  TARGET_PDB = gf16_inverse.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target isop
@@ -367,8 +343,6 @@ build kitty/examples/CMakeFiles/isop.dir/isop.cpp.o: CXX_COMPILER__isop_unscanne
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/isop.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/isop.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/isop.dir/
-  TARGET_PDB = kitty/examples/isop.pdb
 
 
 # =============================================================================
@@ -384,9 +358,8 @@ build kitty/examples/isop: CXX_EXECUTABLE_LINKER__isop_Debug kitty/examples/CMak
   OBJECT_DIR = kitty/examples/CMakeFiles/isop.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/isop.dir/
   TARGET_FILE = kitty/examples/isop
-  TARGET_PDB = kitty/examples/isop.pdb
+  TARGET_PDB = isop.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target npn_enumeration
@@ -403,8 +376,6 @@ build kitty/examples/CMakeFiles/npn_enumeration.dir/npn_enumeration.cpp.o: CXX_C
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/npn_enumeration.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/npn_enumeration.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/npn_enumeration.dir/
-  TARGET_PDB = kitty/examples/npn_enumeration.pdb
 
 
 # =============================================================================
@@ -420,9 +391,8 @@ build kitty/examples/npn_enumeration: CXX_EXECUTABLE_LINKER__npn_enumeration_Deb
   OBJECT_DIR = kitty/examples/CMakeFiles/npn_enumeration.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/npn_enumeration.dir/
   TARGET_FILE = kitty/examples/npn_enumeration
-  TARGET_PDB = kitty/examples/npn_enumeration.pdb
+  TARGET_PDB = npn_enumeration.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target npn_enumeration_map
@@ -439,8 +409,6 @@ build kitty/examples/CMakeFiles/npn_enumeration_map.dir/npn_enumeration_map.cpp.
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/npn_enumeration_map.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/npn_enumeration_map.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/npn_enumeration_map.dir/
-  TARGET_PDB = kitty/examples/npn_enumeration_map.pdb
 
 
 # =============================================================================
@@ -456,9 +424,8 @@ build kitty/examples/npn_enumeration_map: CXX_EXECUTABLE_LINKER__npn_enumeration
   OBJECT_DIR = kitty/examples/CMakeFiles/npn_enumeration_map.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/npn_enumeration_map.dir/
   TARGET_FILE = kitty/examples/npn_enumeration_map
-  TARGET_PDB = kitty/examples/npn_enumeration_map.pdb
+  TARGET_PDB = npn_enumeration_map.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target npn_random
@@ -475,8 +442,6 @@ build kitty/examples/CMakeFiles/npn_random.dir/npn_random.cpp.o: CXX_COMPILER__n
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/npn_random.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/npn_random.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/npn_random.dir/
-  TARGET_PDB = kitty/examples/npn_random.pdb
 
 
 # =============================================================================
@@ -492,9 +457,8 @@ build kitty/examples/npn_random: CXX_EXECUTABLE_LINKER__npn_random_Debug kitty/e
   OBJECT_DIR = kitty/examples/CMakeFiles/npn_random.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/npn_random.dir/
   TARGET_FILE = kitty/examples/npn_random
-  TARGET_PDB = kitty/examples/npn_random.pdb
+  TARGET_PDB = npn_random.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target spectral_enumeration
@@ -511,8 +475,6 @@ build kitty/examples/CMakeFiles/spectral_enumeration.dir/spectral_enumeration.cp
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/spectral_enumeration.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/spectral_enumeration.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/spectral_enumeration.dir/
-  TARGET_PDB = kitty/examples/spectral_enumeration.pdb
 
 
 # =============================================================================
@@ -528,9 +490,8 @@ build kitty/examples/spectral_enumeration: CXX_EXECUTABLE_LINKER__spectral_enume
   OBJECT_DIR = kitty/examples/CMakeFiles/spectral_enumeration.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/spectral_enumeration.dir/
   TARGET_FILE = kitty/examples/spectral_enumeration
-  TARGET_PDB = kitty/examples/spectral_enumeration.pdb
+  TARGET_PDB = spectral_enumeration.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target spectral_enumeration_file
@@ -547,8 +508,6 @@ build kitty/examples/CMakeFiles/spectral_enumeration_file.dir/spectral_enumerati
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/spectral_enumeration_file.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/spectral_enumeration_file.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/spectral_enumeration_file.dir/
-  TARGET_PDB = kitty/examples/spectral_enumeration_file.pdb
 
 
 # =============================================================================
@@ -564,9 +523,8 @@ build kitty/examples/spectral_enumeration_file: CXX_EXECUTABLE_LINKER__spectral_
   OBJECT_DIR = kitty/examples/CMakeFiles/spectral_enumeration_file.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/spectral_enumeration_file.dir/
   TARGET_FILE = kitty/examples/spectral_enumeration_file
-  TARGET_PDB = kitty/examples/spectral_enumeration_file.pdb
+  TARGET_PDB = spectral_enumeration_file.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target spectral_enumeration_map
@@ -583,8 +541,6 @@ build kitty/examples/CMakeFiles/spectral_enumeration_map.dir/spectral_enumeratio
   INCLUDES = -I/home/sheng/CLionProjects/percy/kitty/include
   OBJECT_DIR = kitty/examples/CMakeFiles/spectral_enumeration_map.dir
   OBJECT_FILE_DIR = kitty/examples/CMakeFiles/spectral_enumeration_map.dir
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/spectral_enumeration_map.dir/
-  TARGET_PDB = kitty/examples/spectral_enumeration_map.pdb
 
 
 # =============================================================================
@@ -600,9 +556,8 @@ build kitty/examples/spectral_enumeration_map: CXX_EXECUTABLE_LINKER__spectral_e
   OBJECT_DIR = kitty/examples/CMakeFiles/spectral_enumeration_map.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = kitty/examples/CMakeFiles/spectral_enumeration_map.dir/
   TARGET_FILE = kitty/examples/spectral_enumeration_map
-  TARGET_PDB = kitty/examples/spectral_enumeration_map.pdb
+  TARGET_PDB = spectral_enumeration_map.dbg
 
 
 #############################################
@@ -660,8 +615,6 @@ build abc/CMakeFiles/libabcsat.dir/AbcGlucose.cpp.o: CXX_COMPILER__libabcsat_uns
   INCLUDES = -I/home/sheng/CLionProjects/percy/abc
   OBJECT_DIR = abc/CMakeFiles/libabcsat.dir
   OBJECT_FILE_DIR = abc/CMakeFiles/libabcsat.dir
-  TARGET_COMPILE_PDB = abc/CMakeFiles/libabcsat.dir/libabcsat.pdb
-  TARGET_PDB = abc/liblibabcsat.pdb
 
 build abc/CMakeFiles/libabcsat.dir/Glucose.cpp.o: CXX_COMPILER__libabcsat_unscanned_Debug /home/sheng/CLionProjects/percy/abc/Glucose.cpp || cmake_object_order_depends_target_libabcsat
   DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64
@@ -670,8 +623,6 @@ build abc/CMakeFiles/libabcsat.dir/Glucose.cpp.o: CXX_COMPILER__libabcsat_unscan
   INCLUDES = -I/home/sheng/CLionProjects/percy/abc
   OBJECT_DIR = abc/CMakeFiles/libabcsat.dir
   OBJECT_FILE_DIR = abc/CMakeFiles/libabcsat.dir
-  TARGET_COMPILE_PDB = abc/CMakeFiles/libabcsat.dir/libabcsat.pdb
-  TARGET_PDB = abc/liblibabcsat.pdb
 
 build abc/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o: CXX_COMPILER__libabcsat_unscanned_Debug /home/sheng/CLionProjects/percy/abc/SimpSolver.cpp || cmake_object_order_depends_target_libabcsat
   DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64
@@ -680,8 +631,6 @@ build abc/CMakeFiles/libabcsat.dir/SimpSolver.cpp.o: CXX_COMPILER__libabcsat_uns
   INCLUDES = -I/home/sheng/CLionProjects/percy/abc
   OBJECT_DIR = abc/CMakeFiles/libabcsat.dir
   OBJECT_FILE_DIR = abc/CMakeFiles/libabcsat.dir
-  TARGET_COMPILE_PDB = abc/CMakeFiles/libabcsat.dir/libabcsat.pdb
-  TARGET_PDB = abc/liblibabcsat.pdb
 
 build abc/CMakeFiles/libabcsat.dir/satSolver.cpp.o: CXX_COMPILER__libabcsat_unscanned_Debug /home/sheng/CLionProjects/percy/abc/satSolver.cpp || cmake_object_order_depends_target_libabcsat
   DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64
@@ -690,8 +639,6 @@ build abc/CMakeFiles/libabcsat.dir/satSolver.cpp.o: CXX_COMPILER__libabcsat_unsc
   INCLUDES = -I/home/sheng/CLionProjects/percy/abc
   OBJECT_DIR = abc/CMakeFiles/libabcsat.dir
   OBJECT_FILE_DIR = abc/CMakeFiles/libabcsat.dir
-  TARGET_COMPILE_PDB = abc/CMakeFiles/libabcsat.dir/libabcsat.pdb
-  TARGET_PDB = abc/liblibabcsat.pdb
 
 build abc/CMakeFiles/libabcsat.dir/satStore.cpp.o: CXX_COMPILER__libabcsat_unscanned_Debug /home/sheng/CLionProjects/percy/abc/satStore.cpp || cmake_object_order_depends_target_libabcsat
   DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DLIN64
@@ -700,8 +647,6 @@ build abc/CMakeFiles/libabcsat.dir/satStore.cpp.o: CXX_COMPILER__libabcsat_unsca
   INCLUDES = -I/home/sheng/CLionProjects/percy/abc
   OBJECT_DIR = abc/CMakeFiles/libabcsat.dir
   OBJECT_FILE_DIR = abc/CMakeFiles/libabcsat.dir
-  TARGET_COMPILE_PDB = abc/CMakeFiles/libabcsat.dir/libabcsat.pdb
-  TARGET_PDB = abc/liblibabcsat.pdb
 
 
 # =============================================================================
@@ -716,9 +661,8 @@ build abc/liblibabcsat.a: CXX_STATIC_LIBRARY_LINKER__libabcsat_Debug abc/CMakeFi
   OBJECT_DIR = abc/CMakeFiles/libabcsat.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = abc/CMakeFiles/libabcsat.dir/libabcsat.pdb
   TARGET_FILE = abc/liblibabcsat.a
-  TARGET_PDB = abc/liblibabcsat.pdb
+  TARGET_PDB = libabcsat.a.dbg
 
 
 #############################################
@@ -841,43 +785,6 @@ build examples/rebuild_cache: phony examples/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target synthesis_LUT
-
-
-#############################################
-# Order-only phony target for synthesis_LUT
-
-build cmake_object_order_depends_target_synthesis_LUT: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
-
-build test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o: CXX_COMPILER__synthesis_LUT_unscanned_Debug /home/sheng/CLionProjects/percy/test/synthesis_LUT.cpp || cmake_object_order_depends_target_synthesis_LUT
-  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
-  DEP_FILE = test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o.d
-  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
-  OBJECT_DIR = test/CMakeFiles/synthesis_LUT.dir
-  OBJECT_FILE_DIR = test/CMakeFiles/synthesis_LUT.dir
-  TARGET_COMPILE_PDB = test/CMakeFiles/synthesis_LUT.dir/
-  TARGET_PDB = test/synthesis_LUT.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target synthesis_LUT
-
-
-#############################################
-# Link the executable test/synthesis_LUT
-
-build test/synthesis_LUT: CXX_EXECUTABLE_LINKER__synthesis_LUT_Debug test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
-  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
-  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
-  OBJECT_DIR = test/CMakeFiles/synthesis_LUT.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = test/CMakeFiles/synthesis_LUT.dir/
-  TARGET_FILE = test/synthesis_LUT
-  TARGET_PDB = test/synthesis_LUT.pdb
-
-# =============================================================================
 # Object build statements for EXECUTABLE target link_test
 
 
@@ -893,8 +800,6 @@ build test/CMakeFiles/link_test.dir/link_test1.cpp.o: CXX_COMPILER__link_test_un
   INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = test/CMakeFiles/link_test.dir
   OBJECT_FILE_DIR = test/CMakeFiles/link_test.dir
-  TARGET_COMPILE_PDB = test/CMakeFiles/link_test.dir/
-  TARGET_PDB = test/link_test.pdb
 
 build test/CMakeFiles/link_test.dir/link_test2.cpp.o: CXX_COMPILER__link_test_unscanned_Debug /home/sheng/CLionProjects/percy/test/link_test2.cpp || cmake_object_order_depends_target_link_test
   DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
@@ -903,8 +808,6 @@ build test/CMakeFiles/link_test.dir/link_test2.cpp.o: CXX_COMPILER__link_test_un
   INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
   OBJECT_DIR = test/CMakeFiles/link_test.dir
   OBJECT_FILE_DIR = test/CMakeFiles/link_test.dir
-  TARGET_COMPILE_PDB = test/CMakeFiles/link_test.dir/
-  TARGET_PDB = test/link_test.pdb
 
 
 # =============================================================================
@@ -920,9 +823,8 @@ build test/link_test: CXX_EXECUTABLE_LINKER__link_test_Debug test/CMakeFiles/lin
   OBJECT_DIR = test/CMakeFiles/link_test.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = test/CMakeFiles/link_test.dir/
   TARGET_FILE = test/link_test
-  TARGET_PDB = test/link_test.pdb
+  TARGET_PDB = link_test.dbg
 
 
 #############################################
@@ -985,8 +887,6 @@ build spectral_enumeration: phony kitty/examples/spectral_enumeration
 build spectral_enumeration_file: phony kitty/examples/spectral_enumeration_file
 
 build spectral_enumeration_map: phony kitty/examples/spectral_enumeration_map
-
-build synthesis_LUT: phony test/synthesis_LUT
 
 build syrup: phony syrup/libsyrup.a
 
@@ -1054,7 +954,7 @@ build syrup/all: phony syrup/libsyrup.a
 #############################################
 # Folder: /home/sheng/CLionProjects/percy/cmake-build-debug/test
 
-build test/all: phony test/synthesis_LUT test/link_test
+build test/all: phony test/link_test
 
 # =============================================================================
 # Built-in targets
@@ -1063,14 +963,14 @@ build test/all: phony test/synthesis_LUT test/link_test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/sheng/CLionProjects/percy/CMakeLists.txt /home/sheng/CLionProjects/percy/abc/CMakeLists.txt /home/sheng/CLionProjects/percy/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/include/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/include/CMakeLists.txt /home/sheng/CLionProjects/percy/syrup/CMakeLists.txt /home/sheng/CLionProjects/percy/test/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindZLIB.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/sheng/CLionProjects/percy/CMakeLists.txt /home/sheng/CLionProjects/percy/abc/CMakeLists.txt /home/sheng/CLionProjects/percy/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/include/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/include/CMakeLists.txt /home/sheng/CLionProjects/percy/syrup/CMakeLists.txt /home/sheng/CLionProjects/percy/test/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindZLIB.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/sheng/CLionProjects/percy/CMakeLists.txt /home/sheng/CLionProjects/percy/abc/CMakeLists.txt /home/sheng/CLionProjects/percy/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/include/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/include/CMakeLists.txt /home/sheng/CLionProjects/percy/syrup/CMakeLists.txt /home/sheng/CLionProjects/percy/test/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindZLIB.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/sheng/CLionProjects/percy/CMakeLists.txt /home/sheng/CLionProjects/percy/abc/CMakeLists.txt /home/sheng/CLionProjects/percy/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/include/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/examples/CMakeLists.txt /home/sheng/CLionProjects/percy/kitty/include/CMakeLists.txt /home/sheng/CLionProjects/percy/syrup/CMakeLists.txt /home/sheng/CLionProjects/percy/test/CMakeLists.txt /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindZLIB.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /snap/clion/305/bin/cmake/linux/x64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
