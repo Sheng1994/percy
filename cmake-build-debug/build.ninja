@@ -785,38 +785,2146 @@ build examples/rebuild_cache: phony examples/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target synthesis_LUT
+# Object build statements for EXECUTABLE target aig_synthesis
 
 
 #############################################
-# Order-only phony target for synthesis_LUT
+# Order-only phony target for aig_synthesis
 
-build cmake_object_order_depends_target_synthesis_LUT: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+build cmake_object_order_depends_target_aig_synthesis: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
 
-build test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o: CXX_COMPILER__synthesis_LUT_unscanned_Debug /home/sheng/CLionProjects/percy/test/synthesis_LUT.cpp || cmake_object_order_depends_target_synthesis_LUT
+build test/CMakeFiles/aig_synthesis.dir/aig_synthesis.cpp.o: CXX_COMPILER__aig_synthesis_unscanned_Debug /home/sheng/CLionProjects/percy/test/aig_synthesis.cpp || cmake_object_order_depends_target_aig_synthesis
   DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
-  DEP_FILE = test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o.d
+  DEP_FILE = test/CMakeFiles/aig_synthesis.dir/aig_synthesis.cpp.o.d
   FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
-  OBJECT_DIR = test/CMakeFiles/synthesis_LUT.dir
-  OBJECT_FILE_DIR = test/CMakeFiles/synthesis_LUT.dir
+  OBJECT_DIR = test/CMakeFiles/aig_synthesis.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/aig_synthesis.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target synthesis_LUT
+# Link build statements for EXECUTABLE target aig_synthesis
 
 
 #############################################
-# Link the executable test/synthesis_LUT
+# Link the executable test/aig_synthesis
 
-build test/synthesis_LUT: CXX_EXECUTABLE_LINKER__synthesis_LUT_Debug test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+build test/aig_synthesis: CXX_EXECUTABLE_LINKER__aig_synthesis_Debug test/CMakeFiles/aig_synthesis.dir/aig_synthesis.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
   FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
-  OBJECT_DIR = test/CMakeFiles/synthesis_LUT.dir
+  OBJECT_DIR = test/CMakeFiles/aig_synthesis.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = test/synthesis_LUT
-  TARGET_PDB = synthesis_LUT.dbg
+  TARGET_FILE = test/aig_synthesis
+  TARGET_PDB = aig_synthesis.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arbitrary_fanin
+
+
+#############################################
+# Order-only phony target for arbitrary_fanin
+
+build cmake_object_order_depends_target_arbitrary_fanin: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/arbitrary_fanin.dir/arbitrary_fanin.cpp.o: CXX_COMPILER__arbitrary_fanin_unscanned_Debug /home/sheng/CLionProjects/percy/test/arbitrary_fanin.cpp || cmake_object_order_depends_target_arbitrary_fanin
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/arbitrary_fanin.dir/arbitrary_fanin.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/arbitrary_fanin.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/arbitrary_fanin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arbitrary_fanin
+
+
+#############################################
+# Link the executable test/arbitrary_fanin
+
+build test/arbitrary_fanin: CXX_EXECUTABLE_LINKER__arbitrary_fanin_Debug test/CMakeFiles/arbitrary_fanin.dir/arbitrary_fanin.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/arbitrary_fanin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/arbitrary_fanin
+  TARGET_PDB = arbitrary_fanin.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bitset
+
+
+#############################################
+# Order-only phony target for bitset
+
+build cmake_object_order_depends_target_bitset: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/bitset.dir/bitset.cpp.o: CXX_COMPILER__bitset_unscanned_Debug /home/sheng/CLionProjects/percy/test/bitset.cpp || cmake_object_order_depends_target_bitset
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/bitset.dir/bitset.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/bitset.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/bitset.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bitset
+
+
+#############################################
+# Link the executable test/bitset
+
+build test/bitset: CXX_EXECUTABLE_LINKER__bitset_Debug test/CMakeFiles/bitset.dir/bitset.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/bitset.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/bitset
+  TARGET_PDB = bitset.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bmcg_sat_equivalence
+
+
+#############################################
+# Order-only phony target for bmcg_sat_equivalence
+
+build cmake_object_order_depends_target_bmcg_sat_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/bmcg_sat_equivalence.dir/bmcg_sat_equivalence.cpp.o: CXX_COMPILER__bmcg_sat_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/bmcg_sat_equivalence.cpp || cmake_object_order_depends_target_bmcg_sat_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/bmcg_sat_equivalence.dir/bmcg_sat_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/bmcg_sat_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/bmcg_sat_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bmcg_sat_equivalence
+
+
+#############################################
+# Link the executable test/bmcg_sat_equivalence
+
+build test/bmcg_sat_equivalence: CXX_EXECUTABLE_LINKER__bmcg_sat_equivalence_Debug test/CMakeFiles/bmcg_sat_equivalence.dir/bmcg_sat_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/bmcg_sat_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/bmcg_sat_equivalence
+  TARGET_PDB = bmcg_sat_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cardinality
+
+
+#############################################
+# Order-only phony target for cardinality
+
+build cmake_object_order_depends_target_cardinality: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/cardinality.dir/cardinality.cpp.o: CXX_COMPILER__cardinality_unscanned_Debug /home/sheng/CLionProjects/percy/test/cardinality.cpp || cmake_object_order_depends_target_cardinality
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/cardinality.dir/cardinality.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/cardinality.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/cardinality.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cardinality
+
+
+#############################################
+# Link the executable test/cardinality
+
+build test/cardinality: CXX_EXECUTABLE_LINKER__cardinality_Debug test/CMakeFiles/cardinality.dir/cardinality.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/cardinality.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/cardinality
+  TARGET_PDB = cardinality.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cms_equivalence
+
+
+#############################################
+# Order-only phony target for cms_equivalence
+
+build cmake_object_order_depends_target_cms_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/cms_equivalence.dir/cms_equivalence.cpp.o: CXX_COMPILER__cms_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/cms_equivalence.cpp || cmake_object_order_depends_target_cms_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/cms_equivalence.dir/cms_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/cms_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/cms_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cms_equivalence
+
+
+#############################################
+# Link the executable test/cms_equivalence
+
+build test/cms_equivalence: CXX_EXECUTABLE_LINKER__cms_equivalence_Debug test/CMakeFiles/cms_equivalence.dir/cms_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/cms_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/cms_equivalence
+  TARGET_PDB = cms_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cnf_gen
+
+
+#############################################
+# Order-only phony target for cnf_gen
+
+build cmake_object_order_depends_target_cnf_gen: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/cnf_gen.dir/cnf_gen.cpp.o: CXX_COMPILER__cnf_gen_unscanned_Debug /home/sheng/CLionProjects/percy/test/cnf_gen.cpp || cmake_object_order_depends_target_cnf_gen
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/cnf_gen.dir/cnf_gen.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/cnf_gen.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/cnf_gen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cnf_gen
+
+
+#############################################
+# Link the executable test/cnf_gen
+
+build test/cnf_gen: CXX_EXECUTABLE_LINKER__cnf_gen_Debug test/CMakeFiles/cnf_gen.dir/cnf_gen.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/cnf_gen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/cnf_gen
+  TARGET_PDB = cnf_gen.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dag_generation
+
+
+#############################################
+# Order-only phony target for dag_generation
+
+build cmake_object_order_depends_target_dag_generation: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/dag_generation.dir/dag_generation.cpp.o: CXX_COMPILER__dag_generation_unscanned_Debug /home/sheng/CLionProjects/percy/test/dag_generation.cpp || cmake_object_order_depends_target_dag_generation
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/dag_generation.dir/dag_generation.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/dag_generation.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/dag_generation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dag_generation
+
+
+#############################################
+# Link the executable test/dag_generation
+
+build test/dag_generation: CXX_EXECUTABLE_LINKER__dag_generation_Debug test/CMakeFiles/dag_generation.dir/dag_generation.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/dag_generation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/dag_generation
+  TARGET_PDB = dag_generation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dag_generation_starting_point
+
+
+#############################################
+# Order-only phony target for dag_generation_starting_point
+
+build cmake_object_order_depends_target_dag_generation_starting_point: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/dag_generation_starting_point.dir/dag_generation_starting_point.cpp.o: CXX_COMPILER__dag_generation_starting_point_unscanned_Debug /home/sheng/CLionProjects/percy/test/dag_generation_starting_point.cpp || cmake_object_order_depends_target_dag_generation_starting_point
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/dag_generation_starting_point.dir/dag_generation_starting_point.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/dag_generation_starting_point.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/dag_generation_starting_point.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dag_generation_starting_point
+
+
+#############################################
+# Link the executable test/dag_generation_starting_point
+
+build test/dag_generation_starting_point: CXX_EXECUTABLE_LINKER__dag_generation_starting_point_Debug test/CMakeFiles/dag_generation_starting_point.dir/dag_generation_starting_point.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/dag_generation_starting_point.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/dag_generation_starting_point
+  TARGET_PDB = dag_generation_starting_point.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dag_isomorphism
+
+
+#############################################
+# Order-only phony target for dag_isomorphism
+
+build cmake_object_order_depends_target_dag_isomorphism: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/dag_isomorphism.dir/dag_isomorphism.cpp.o: CXX_COMPILER__dag_isomorphism_unscanned_Debug /home/sheng/CLionProjects/percy/test/dag_isomorphism.cpp || cmake_object_order_depends_target_dag_isomorphism
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/dag_isomorphism.dir/dag_isomorphism.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/dag_isomorphism.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/dag_isomorphism.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dag_isomorphism
+
+
+#############################################
+# Link the executable test/dag_isomorphism
+
+build test/dag_isomorphism: CXX_EXECUTABLE_LINKER__dag_isomorphism_Debug test/CMakeFiles/dag_isomorphism.dir/dag_isomorphism.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/dag_isomorphism.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/dag_isomorphism
+  TARGET_PDB = dag_isomorphism.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dag_synth_equivalence
+
+
+#############################################
+# Order-only phony target for dag_synth_equivalence
+
+build cmake_object_order_depends_target_dag_synth_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/dag_synth_equivalence.dir/dag_synth_equivalence.cpp.o: CXX_COMPILER__dag_synth_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/dag_synth_equivalence.cpp || cmake_object_order_depends_target_dag_synth_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/dag_synth_equivalence.dir/dag_synth_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/dag_synth_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/dag_synth_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dag_synth_equivalence
+
+
+#############################################
+# Link the executable test/dag_synth_equivalence
+
+build test/dag_synth_equivalence: CXX_EXECUTABLE_LINKER__dag_synth_equivalence_Debug test/CMakeFiles/dag_synth_equivalence.dir/dag_synth_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/dag_synth_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/dag_synth_equivalence
+  TARGET_PDB = dag_synth_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dag_to_dot
+
+
+#############################################
+# Order-only phony target for dag_to_dot
+
+build cmake_object_order_depends_target_dag_to_dot: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/dag_to_dot.dir/dag_to_dot.cpp.o: CXX_COMPILER__dag_to_dot_unscanned_Debug /home/sheng/CLionProjects/percy/test/dag_to_dot.cpp || cmake_object_order_depends_target_dag_to_dot
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/dag_to_dot.dir/dag_to_dot.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/dag_to_dot.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/dag_to_dot.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dag_to_dot
+
+
+#############################################
+# Link the executable test/dag_to_dot
+
+build test/dag_to_dot: CXX_EXECUTABLE_LINKER__dag_to_dot_Debug test/CMakeFiles/dag_to_dot.dir/dag_to_dot.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/dag_to_dot.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/dag_to_dot
+  TARGET_PDB = dag_to_dot.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target denormalization
+
+
+#############################################
+# Order-only phony target for denormalization
+
+build cmake_object_order_depends_target_denormalization: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/denormalization.dir/denormalization.cpp.o: CXX_COMPILER__denormalization_unscanned_Debug /home/sheng/CLionProjects/percy/test/denormalization.cpp || cmake_object_order_depends_target_denormalization
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/denormalization.dir/denormalization.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/denormalization.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/denormalization.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target denormalization
+
+
+#############################################
+# Link the executable test/denormalization
+
+build test/denormalization: CXX_EXECUTABLE_LINKER__denormalization_Debug test/CMakeFiles/denormalization.dir/denormalization.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/denormalization.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/denormalization
+  TARGET_PDB = denormalization.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ditt_equivalence
+
+
+#############################################
+# Order-only phony target for ditt_equivalence
+
+build cmake_object_order_depends_target_ditt_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/ditt_equivalence.dir/ditt_equivalence.cpp.o: CXX_COMPILER__ditt_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/ditt_equivalence.cpp || cmake_object_order_depends_target_ditt_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/ditt_equivalence.dir/ditt_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/ditt_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/ditt_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ditt_equivalence
+
+
+#############################################
+# Link the executable test/ditt_equivalence
+
+build test/ditt_equivalence: CXX_EXECUTABLE_LINKER__ditt_equivalence_Debug test/CMakeFiles/ditt_equivalence.dir/ditt_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/ditt_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/ditt_equivalence
+  TARGET_PDB = ditt_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ditt_maj_synthesis
+
+
+#############################################
+# Order-only phony target for ditt_maj_synthesis
+
+build cmake_object_order_depends_target_ditt_maj_synthesis: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/ditt_maj_synthesis.dir/ditt_maj_synthesis.cpp.o: CXX_COMPILER__ditt_maj_synthesis_unscanned_Debug /home/sheng/CLionProjects/percy/test/ditt_maj_synthesis.cpp || cmake_object_order_depends_target_ditt_maj_synthesis
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/ditt_maj_synthesis.dir/ditt_maj_synthesis.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/ditt_maj_synthesis.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/ditt_maj_synthesis.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ditt_maj_synthesis
+
+
+#############################################
+# Link the executable test/ditt_maj_synthesis
+
+build test/ditt_maj_synthesis: CXX_EXECUTABLE_LINKER__ditt_maj_synthesis_Debug test/CMakeFiles/ditt_maj_synthesis.dir/ditt_maj_synthesis.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/ditt_maj_synthesis.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/ditt_maj_synthesis
+  TARGET_PDB = ditt_maj_synthesis.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dont_cares
+
+
+#############################################
+# Order-only phony target for dont_cares
+
+build cmake_object_order_depends_target_dont_cares: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/dont_cares.dir/dont_cares.cpp.o: CXX_COMPILER__dont_cares_unscanned_Debug /home/sheng/CLionProjects/percy/test/dont_cares.cpp || cmake_object_order_depends_target_dont_cares
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/dont_cares.dir/dont_cares.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/dont_cares.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/dont_cares.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dont_cares
+
+
+#############################################
+# Link the executable test/dont_cares
+
+build test/dont_cares: CXX_EXECUTABLE_LINKER__dont_cares_Debug test/CMakeFiles/dont_cares.dir/dont_cares.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/dont_cares.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/dont_cares
+  TARGET_PDB = dont_cares.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fence_counting
+
+
+#############################################
+# Order-only phony target for fence_counting
+
+build cmake_object_order_depends_target_fence_counting: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/fence_counting.dir/fence_counting.cpp.o: CXX_COMPILER__fence_counting_unscanned_Debug /home/sheng/CLionProjects/percy/test/fence_counting.cpp || cmake_object_order_depends_target_fence_counting
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/fence_counting.dir/fence_counting.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/fence_counting.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/fence_counting.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fence_counting
+
+
+#############################################
+# Link the executable test/fence_counting
+
+build test/fence_counting: CXX_EXECUTABLE_LINKER__fence_counting_Debug test/CMakeFiles/fence_counting.dir/fence_counting.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/fence_counting.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/fence_counting
+  TARGET_PDB = fence_counting.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fence_equivalence
+
+
+#############################################
+# Order-only phony target for fence_equivalence
+
+build cmake_object_order_depends_target_fence_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/fence_equivalence.dir/fence_equivalence.cpp.o: CXX_COMPILER__fence_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/fence_equivalence.cpp || cmake_object_order_depends_target_fence_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/fence_equivalence.dir/fence_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/fence_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/fence_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fence_equivalence
+
+
+#############################################
+# Link the executable test/fence_equivalence
+
+build test/fence_equivalence: CXX_EXECUTABLE_LINKER__fence_equivalence_Debug test/CMakeFiles/fence_equivalence.dir/fence_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/fence_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/fence_equivalence
+  TARGET_PDB = fence_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fence_po_filter
+
+
+#############################################
+# Order-only phony target for fence_po_filter
+
+build cmake_object_order_depends_target_fence_po_filter: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/fence_po_filter.dir/fence_po_filter.cpp.o: CXX_COMPILER__fence_po_filter_unscanned_Debug /home/sheng/CLionProjects/percy/test/fence_po_filter.cpp || cmake_object_order_depends_target_fence_po_filter
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/fence_po_filter.dir/fence_po_filter.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/fence_po_filter.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/fence_po_filter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fence_po_filter
+
+
+#############################################
+# Link the executable test/fence_po_filter
+
+build test/fence_po_filter: CXX_EXECUTABLE_LINKER__fence_po_filter_Debug test/CMakeFiles/fence_po_filter.dir/fence_po_filter.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/fence_po_filter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/fence_po_filter
+  TARGET_PDB = fence_po_filter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fence_profiling
+
+
+#############################################
+# Order-only phony target for fence_profiling
+
+build cmake_object_order_depends_target_fence_profiling: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/fence_profiling.dir/fence_profiling.cpp.o: CXX_COMPILER__fence_profiling_unscanned_Debug /home/sheng/CLionProjects/percy/test/fence_profiling.cpp || cmake_object_order_depends_target_fence_profiling
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/fence_profiling.dir/fence_profiling.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/fence_profiling.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/fence_profiling.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fence_profiling
+
+
+#############################################
+# Link the executable test/fence_profiling
+
+build test/fence_profiling: CXX_EXECUTABLE_LINKER__fence_profiling_Debug test/CMakeFiles/fence_profiling.dir/fence_profiling.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/fence_profiling.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/fence_profiling
+  TARGET_PDB = fence_profiling.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find_dag_equivalence
+
+
+#############################################
+# Order-only phony target for find_dag_equivalence
+
+build cmake_object_order_depends_target_find_dag_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/find_dag_equivalence.dir/find_dag_equivalence.cpp.o: CXX_COMPILER__find_dag_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/find_dag_equivalence.cpp || cmake_object_order_depends_target_find_dag_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/find_dag_equivalence.dir/find_dag_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/find_dag_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/find_dag_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_dag_equivalence
+
+
+#############################################
+# Link the executable test/find_dag_equivalence
+
+build test/find_dag_equivalence: CXX_EXECUTABLE_LINKER__find_dag_equivalence_Debug test/CMakeFiles/find_dag_equivalence.dir/find_dag_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/find_dag_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/find_dag_equivalence
+  TARGET_PDB = find_dag_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target floating_dag
+
+
+#############################################
+# Order-only phony target for floating_dag
+
+build cmake_object_order_depends_target_floating_dag: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/floating_dag.dir/floating_dag.cpp.o: CXX_COMPILER__floating_dag_unscanned_Debug /home/sheng/CLionProjects/percy/test/floating_dag.cpp || cmake_object_order_depends_target_floating_dag
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/floating_dag.dir/floating_dag.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/floating_dag.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/floating_dag.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target floating_dag
+
+
+#############################################
+# Link the executable test/floating_dag
+
+build test/floating_dag: CXX_EXECUTABLE_LINKER__floating_dag_Debug test/CMakeFiles/floating_dag.dir/floating_dag.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/floating_dag.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/floating_dag
+  TARGET_PDB = floating_dag.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target generate_solutions
+
+
+#############################################
+# Order-only phony target for generate_solutions
+
+build cmake_object_order_depends_target_generate_solutions: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/generate_solutions.dir/generate_solutions.cpp.o: CXX_COMPILER__generate_solutions_unscanned_Debug /home/sheng/CLionProjects/percy/test/generate_solutions.cpp || cmake_object_order_depends_target_generate_solutions
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/generate_solutions.dir/generate_solutions.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/generate_solutions.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/generate_solutions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target generate_solutions
+
+
+#############################################
+# Link the executable test/generate_solutions
+
+build test/generate_solutions: CXX_EXECUTABLE_LINKER__generate_solutions_Debug test/CMakeFiles/generate_solutions.dir/generate_solutions.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/generate_solutions.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/generate_solutions
+  TARGET_PDB = generate_solutions.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target generate_struct_solutions
+
+
+#############################################
+# Order-only phony target for generate_struct_solutions
+
+build cmake_object_order_depends_target_generate_struct_solutions: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/generate_struct_solutions.dir/generate_struct_solutions.cpp.o: CXX_COMPILER__generate_struct_solutions_unscanned_Debug /home/sheng/CLionProjects/percy/test/generate_struct_solutions.cpp || cmake_object_order_depends_target_generate_struct_solutions
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/generate_struct_solutions.dir/generate_struct_solutions.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/generate_struct_solutions.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/generate_struct_solutions.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target generate_struct_solutions
+
+
+#############################################
+# Link the executable test/generate_struct_solutions
+
+build test/generate_struct_solutions: CXX_EXECUTABLE_LINKER__generate_struct_solutions_Debug test/CMakeFiles/generate_struct_solutions.dir/generate_struct_solutions.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/generate_struct_solutions.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/generate_struct_solutions
+  TARGET_PDB = generate_struct_solutions.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target glucose_equivalence
+
+
+#############################################
+# Order-only phony target for glucose_equivalence
+
+build cmake_object_order_depends_target_glucose_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/glucose_equivalence.dir/glucose_equivalence.cpp.o: CXX_COMPILER__glucose_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/glucose_equivalence.cpp || cmake_object_order_depends_target_glucose_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/glucose_equivalence.dir/glucose_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/glucose_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/glucose_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target glucose_equivalence
+
+
+#############################################
+# Link the executable test/glucose_equivalence
+
+build test/glucose_equivalence: CXX_EXECUTABLE_LINKER__glucose_equivalence_Debug test/CMakeFiles/glucose_equivalence.dir/glucose_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/glucose_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/glucose_equivalence
+  TARGET_PDB = glucose_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target isomorphic_synth_equivalence
+
+
+#############################################
+# Order-only phony target for isomorphic_synth_equivalence
+
+build cmake_object_order_depends_target_isomorphic_synth_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/isomorphic_synth_equivalence.dir/isomorphic_synth_equivalence.cpp.o: CXX_COMPILER__isomorphic_synth_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/isomorphic_synth_equivalence.cpp || cmake_object_order_depends_target_isomorphic_synth_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/isomorphic_synth_equivalence.dir/isomorphic_synth_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/isomorphic_synth_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/isomorphic_synth_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target isomorphic_synth_equivalence
+
+
+#############################################
+# Link the executable test/isomorphic_synth_equivalence
+
+build test/isomorphic_synth_equivalence: CXX_EXECUTABLE_LINKER__isomorphic_synth_equivalence_Debug test/CMakeFiles/isomorphic_synth_equivalence.dir/isomorphic_synth_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/isomorphic_synth_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/isomorphic_synth_equivalence
+  TARGET_PDB = isomorphic_synth_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maj_decomposition
+
+
+#############################################
+# Order-only phony target for maj_decomposition
+
+build cmake_object_order_depends_target_maj_decomposition: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/maj_decomposition.dir/maj_decomposition.cpp.o: CXX_COMPILER__maj_decomposition_unscanned_Debug /home/sheng/CLionProjects/percy/test/maj_decomposition.cpp || cmake_object_order_depends_target_maj_decomposition
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/maj_decomposition.dir/maj_decomposition.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/maj_decomposition.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/maj_decomposition.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maj_decomposition
+
+
+#############################################
+# Link the executable test/maj_decomposition
+
+build test/maj_decomposition: CXX_EXECUTABLE_LINKER__maj_decomposition_Debug test/CMakeFiles/maj_decomposition.dir/maj_decomposition.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/maj_decomposition.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/maj_decomposition
+  TARGET_PDB = maj_decomposition.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maj_enumerate
+
+
+#############################################
+# Order-only phony target for maj_enumerate
+
+build cmake_object_order_depends_target_maj_enumerate: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/maj_enumerate.dir/maj_enumerate.cpp.o: CXX_COMPILER__maj_enumerate_unscanned_Debug /home/sheng/CLionProjects/percy/test/maj_enumerate.cpp || cmake_object_order_depends_target_maj_enumerate
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/maj_enumerate.dir/maj_enumerate.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/maj_enumerate.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/maj_enumerate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maj_enumerate
+
+
+#############################################
+# Link the executable test/maj_enumerate
+
+build test/maj_enumerate: CXX_EXECUTABLE_LINKER__maj_enumerate_Debug test/CMakeFiles/maj_enumerate.dir/maj_enumerate.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/maj_enumerate.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/maj_enumerate
+  TARGET_PDB = maj_enumerate.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maj_equivalence
+
+
+#############################################
+# Order-only phony target for maj_equivalence
+
+build cmake_object_order_depends_target_maj_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/maj_equivalence.dir/maj_equivalence.cpp.o: CXX_COMPILER__maj_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/maj_equivalence.cpp || cmake_object_order_depends_target_maj_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/maj_equivalence.dir/maj_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/maj_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/maj_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maj_equivalence
+
+
+#############################################
+# Link the executable test/maj_equivalence
+
+build test/maj_equivalence: CXX_EXECUTABLE_LINKER__maj_equivalence_Debug test/CMakeFiles/maj_equivalence.dir/maj_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/maj_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/maj_equivalence
+  TARGET_PDB = maj_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target msv_equivalence
+
+
+#############################################
+# Order-only phony target for msv_equivalence
+
+build cmake_object_order_depends_target_msv_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/msv_equivalence.dir/msv_equivalence.cpp.o: CXX_COMPILER__msv_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/msv_equivalence.cpp || cmake_object_order_depends_target_msv_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/msv_equivalence.dir/msv_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/msv_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/msv_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target msv_equivalence
+
+
+#############################################
+# Link the executable test/msv_equivalence
+
+build test/msv_equivalence: CXX_EXECUTABLE_LINKER__msv_equivalence_Debug test/CMakeFiles/msv_equivalence.dir/msv_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/msv_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/msv_equivalence
+  TARGET_PDB = msv_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target npn_classification
+
+
+#############################################
+# Order-only phony target for npn_classification
+
+build cmake_object_order_depends_target_npn_classification: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/npn_classification.dir/npn_classification.cpp.o: CXX_COMPILER__npn_classification_unscanned_Debug /home/sheng/CLionProjects/percy/test/npn_classification.cpp || cmake_object_order_depends_target_npn_classification
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/npn_classification.dir/npn_classification.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/npn_classification.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/npn_classification.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target npn_classification
+
+
+#############################################
+# Link the executable test/npn_classification
+
+build test/npn_classification: CXX_EXECUTABLE_LINKER__npn_classification_Debug test/CMakeFiles/npn_classification.dir/npn_classification.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/npn_classification.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/npn_classification
+  TARGET_PDB = npn_classification.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target nr_solutions_equivalence
+
+
+#############################################
+# Order-only phony target for nr_solutions_equivalence
+
+build cmake_object_order_depends_target_nr_solutions_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/nr_solutions_equivalence.dir/nr_solutions_equivalence.cpp.o: CXX_COMPILER__nr_solutions_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/nr_solutions_equivalence.cpp || cmake_object_order_depends_target_nr_solutions_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/nr_solutions_equivalence.dir/nr_solutions_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/nr_solutions_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/nr_solutions_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nr_solutions_equivalence
+
+
+#############################################
+# Link the executable test/nr_solutions_equivalence
+
+build test/nr_solutions_equivalence: CXX_EXECUTABLE_LINKER__nr_solutions_equivalence_Debug test/CMakeFiles/nr_solutions_equivalence.dir/nr_solutions_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/nr_solutions_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/nr_solutions_equivalence
+  TARGET_PDB = nr_solutions_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_fence_equivalence
+
+
+#############################################
+# Order-only phony target for parallel_fence_equivalence
+
+build cmake_object_order_depends_target_parallel_fence_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_fence_equivalence.dir/parallel_fence_equivalence.cpp.o: CXX_COMPILER__parallel_fence_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_fence_equivalence.cpp || cmake_object_order_depends_target_parallel_fence_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_fence_equivalence.dir/parallel_fence_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_fence_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_fence_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_fence_equivalence
+
+
+#############################################
+# Link the executable test/parallel_fence_equivalence
+
+build test/parallel_fence_equivalence: CXX_EXECUTABLE_LINKER__parallel_fence_equivalence_Debug test/CMakeFiles/parallel_fence_equivalence.dir/parallel_fence_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_fence_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_fence_equivalence
+  TARGET_PDB = parallel_fence_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_fence_generation
+
+
+#############################################
+# Order-only phony target for parallel_fence_generation
+
+build cmake_object_order_depends_target_parallel_fence_generation: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_fence_generation.dir/parallel_fence_generation.cpp.o: CXX_COMPILER__parallel_fence_generation_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_fence_generation.cpp || cmake_object_order_depends_target_parallel_fence_generation
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_fence_generation.dir/parallel_fence_generation.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_fence_generation.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_fence_generation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_fence_generation
+
+
+#############################################
+# Link the executable test/parallel_fence_generation
+
+build test/parallel_fence_generation: CXX_EXECUTABLE_LINKER__parallel_fence_generation_Debug test/CMakeFiles/parallel_fence_generation.dir/parallel_fence_generation.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_fence_generation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_fence_generation
+  TARGET_PDB = parallel_fence_generation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_fence_profiling
+
+
+#############################################
+# Order-only phony target for parallel_fence_profiling
+
+build cmake_object_order_depends_target_parallel_fence_profiling: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_fence_profiling.dir/parallel_fence_profiling.cpp.o: CXX_COMPILER__parallel_fence_profiling_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_fence_profiling.cpp || cmake_object_order_depends_target_parallel_fence_profiling
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_fence_profiling.dir/parallel_fence_profiling.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_fence_profiling.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_fence_profiling.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_fence_profiling
+
+
+#############################################
+# Link the executable test/parallel_fence_profiling
+
+build test/parallel_fence_profiling: CXX_EXECUTABLE_LINKER__parallel_fence_profiling_Debug test/CMakeFiles/parallel_fence_profiling.dir/parallel_fence_profiling.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_fence_profiling.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_fence_profiling
+  TARGET_PDB = parallel_fence_profiling.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_partial_dag_equivalence
+
+
+#############################################
+# Order-only phony target for parallel_partial_dag_equivalence
+
+build cmake_object_order_depends_target_parallel_partial_dag_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_partial_dag_equivalence.dir/parallel_partial_dag_equivalence.cpp.o: CXX_COMPILER__parallel_partial_dag_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_partial_dag_equivalence.cpp || cmake_object_order_depends_target_parallel_partial_dag_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_partial_dag_equivalence.dir/parallel_partial_dag_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_partial_dag_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_partial_dag_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_partial_dag_equivalence
+
+
+#############################################
+# Link the executable test/parallel_partial_dag_equivalence
+
+build test/parallel_partial_dag_equivalence: CXX_EXECUTABLE_LINKER__parallel_partial_dag_equivalence_Debug test/CMakeFiles/parallel_partial_dag_equivalence.dir/parallel_partial_dag_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_partial_dag_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_partial_dag_equivalence
+  TARGET_PDB = parallel_partial_dag_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_partial_dag_profiling
+
+
+#############################################
+# Order-only phony target for parallel_partial_dag_profiling
+
+build cmake_object_order_depends_target_parallel_partial_dag_profiling: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_partial_dag_profiling.dir/parallel_partial_dag_profiling.cpp.o: CXX_COMPILER__parallel_partial_dag_profiling_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_partial_dag_profiling.cpp || cmake_object_order_depends_target_parallel_partial_dag_profiling
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_partial_dag_profiling.dir/parallel_partial_dag_profiling.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_partial_dag_profiling.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_partial_dag_profiling.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_partial_dag_profiling
+
+
+#############################################
+# Link the executable test/parallel_partial_dag_profiling
+
+build test/parallel_partial_dag_profiling: CXX_EXECUTABLE_LINKER__parallel_partial_dag_profiling_Debug test/CMakeFiles/parallel_partial_dag_profiling.dir/parallel_partial_dag_profiling.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_partial_dag_profiling.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_partial_dag_profiling
+  TARGET_PDB = parallel_partial_dag_profiling.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_partial_dag_ser_equivalence
+
+
+#############################################
+# Order-only phony target for parallel_partial_dag_ser_equivalence
+
+build cmake_object_order_depends_target_parallel_partial_dag_ser_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_partial_dag_ser_equivalence.dir/parallel_partial_dag_ser_equivalence.cpp.o: CXX_COMPILER__parallel_partial_dag_ser_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_partial_dag_ser_equivalence.cpp || cmake_object_order_depends_target_parallel_partial_dag_ser_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_partial_dag_ser_equivalence.dir/parallel_partial_dag_ser_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_partial_dag_ser_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_partial_dag_ser_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_partial_dag_ser_equivalence
+
+
+#############################################
+# Link the executable test/parallel_partial_dag_ser_equivalence
+
+build test/parallel_partial_dag_ser_equivalence: CXX_EXECUTABLE_LINKER__parallel_partial_dag_ser_equivalence_Debug test/CMakeFiles/parallel_partial_dag_ser_equivalence.dir/parallel_partial_dag_ser_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_partial_dag_ser_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_partial_dag_ser_equivalence
+  TARGET_PDB = parallel_partial_dag_ser_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_pd3_ditt_maj_equivalence
+
+
+#############################################
+# Order-only phony target for parallel_pd3_ditt_maj_equivalence
+
+build cmake_object_order_depends_target_parallel_pd3_ditt_maj_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_pd3_ditt_maj_equivalence.dir/parallel_pd3_ditt_maj_equivalence.cpp.o: CXX_COMPILER__parallel_pd3_ditt_maj_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_pd3_ditt_maj_equivalence.cpp || cmake_object_order_depends_target_parallel_pd3_ditt_maj_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_pd3_ditt_maj_equivalence.dir/parallel_pd3_ditt_maj_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_pd3_ditt_maj_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_pd3_ditt_maj_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_pd3_ditt_maj_equivalence
+
+
+#############################################
+# Link the executable test/parallel_pd3_ditt_maj_equivalence
+
+build test/parallel_pd3_ditt_maj_equivalence: CXX_EXECUTABLE_LINKER__parallel_pd3_ditt_maj_equivalence_Debug test/CMakeFiles/parallel_pd3_ditt_maj_equivalence.dir/parallel_pd3_ditt_maj_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_pd3_ditt_maj_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_pd3_ditt_maj_equivalence
+  TARGET_PDB = parallel_pd3_ditt_maj_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parallel_synthesis
+
+
+#############################################
+# Order-only phony target for parallel_synthesis
+
+build cmake_object_order_depends_target_parallel_synthesis: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/parallel_synthesis.dir/parallel_synthesis.cpp.o: CXX_COMPILER__parallel_synthesis_unscanned_Debug /home/sheng/CLionProjects/percy/test/parallel_synthesis.cpp || cmake_object_order_depends_target_parallel_synthesis
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/parallel_synthesis.dir/parallel_synthesis.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/parallel_synthesis.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/parallel_synthesis.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parallel_synthesis
+
+
+#############################################
+# Link the executable test/parallel_synthesis
+
+build test/parallel_synthesis: CXX_EXECUTABLE_LINKER__parallel_synthesis_Debug test/CMakeFiles/parallel_synthesis.dir/parallel_synthesis.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/parallel_synthesis.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/parallel_synthesis
+  TARGET_PDB = parallel_synthesis.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag3_count
+
+
+#############################################
+# Order-only phony target for partial_dag3_count
+
+build cmake_object_order_depends_target_partial_dag3_count: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag3_count.dir/partial_dag3_count.cpp.o: CXX_COMPILER__partial_dag3_count_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag3_count.cpp || cmake_object_order_depends_target_partial_dag3_count
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag3_count.dir/partial_dag3_count.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag3_count.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag3_count.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag3_count
+
+
+#############################################
+# Link the executable test/partial_dag3_count
+
+build test/partial_dag3_count: CXX_EXECUTABLE_LINKER__partial_dag3_count_Debug test/CMakeFiles/partial_dag3_count.dir/partial_dag3_count.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag3_count.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag3_count
+  TARGET_PDB = partial_dag3_count.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag3_ser_equivalence
+
+
+#############################################
+# Order-only phony target for partial_dag3_ser_equivalence
+
+build cmake_object_order_depends_target_partial_dag3_ser_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag3_ser_equivalence.dir/partial_dag3_ser_equivalence.cpp.o: CXX_COMPILER__partial_dag3_ser_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag3_ser_equivalence.cpp || cmake_object_order_depends_target_partial_dag3_ser_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag3_ser_equivalence.dir/partial_dag3_ser_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag3_ser_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag3_ser_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag3_ser_equivalence
+
+
+#############################################
+# Link the executable test/partial_dag3_ser_equivalence
+
+build test/partial_dag3_ser_equivalence: CXX_EXECUTABLE_LINKER__partial_dag3_ser_equivalence_Debug test/CMakeFiles/partial_dag3_ser_equivalence.dir/partial_dag3_ser_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag3_ser_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag3_ser_equivalence
+  TARGET_PDB = partial_dag3_ser_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_count
+
+
+#############################################
+# Order-only phony target for partial_dag_count
+
+build cmake_object_order_depends_target_partial_dag_count: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_count.dir/partial_dag_count.cpp.o: CXX_COMPILER__partial_dag_count_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_count.cpp || cmake_object_order_depends_target_partial_dag_count
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_count.dir/partial_dag_count.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_count.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_count.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_count
+
+
+#############################################
+# Link the executable test/partial_dag_count
+
+build test/partial_dag_count: CXX_EXECUTABLE_LINKER__partial_dag_count_Debug test/CMakeFiles/partial_dag_count.dir/partial_dag_count.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_count.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_count
+  TARGET_PDB = partial_dag_count.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_enum_bench
+
+
+#############################################
+# Order-only phony target for partial_dag_enum_bench
+
+build cmake_object_order_depends_target_partial_dag_enum_bench: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_enum_bench.dir/partial_dag_enum_bench.cpp.o: CXX_COMPILER__partial_dag_enum_bench_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_enum_bench.cpp || cmake_object_order_depends_target_partial_dag_enum_bench
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_enum_bench.dir/partial_dag_enum_bench.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_enum_bench.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_enum_bench.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_enum_bench
+
+
+#############################################
+# Link the executable test/partial_dag_enum_bench
+
+build test/partial_dag_enum_bench: CXX_EXECUTABLE_LINKER__partial_dag_enum_bench_Debug test/CMakeFiles/partial_dag_enum_bench.dir/partial_dag_enum_bench.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_enum_bench.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_enum_bench
+  TARGET_PDB = partial_dag_enum_bench.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_enum_equivalence
+
+
+#############################################
+# Order-only phony target for partial_dag_enum_equivalence
+
+build cmake_object_order_depends_target_partial_dag_enum_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_enum_equivalence.dir/partial_dag_enum_equivalence.cpp.o: CXX_COMPILER__partial_dag_enum_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_enum_equivalence.cpp || cmake_object_order_depends_target_partial_dag_enum_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_enum_equivalence.dir/partial_dag_enum_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_enum_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_enum_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_enum_equivalence
+
+
+#############################################
+# Link the executable test/partial_dag_enum_equivalence
+
+build test/partial_dag_enum_equivalence: CXX_EXECUTABLE_LINKER__partial_dag_enum_equivalence_Debug test/CMakeFiles/partial_dag_enum_equivalence.dir/partial_dag_enum_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_enum_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_enum_equivalence
+  TARGET_PDB = partial_dag_enum_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_equivalence
+
+
+#############################################
+# Order-only phony target for partial_dag_equivalence
+
+build cmake_object_order_depends_target_partial_dag_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_equivalence.dir/partial_dag_equivalence.cpp.o: CXX_COMPILER__partial_dag_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_equivalence.cpp || cmake_object_order_depends_target_partial_dag_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_equivalence.dir/partial_dag_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_equivalence
+
+
+#############################################
+# Link the executable test/partial_dag_equivalence
+
+build test/partial_dag_equivalence: CXX_EXECUTABLE_LINKER__partial_dag_equivalence_Debug test/CMakeFiles/partial_dag_equivalence.dir/partial_dag_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_equivalence
+  TARGET_PDB = partial_dag_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_generation
+
+
+#############################################
+# Order-only phony target for partial_dag_generation
+
+build cmake_object_order_depends_target_partial_dag_generation: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_generation.dir/partial_dag_generation.cpp.o: CXX_COMPILER__partial_dag_generation_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_generation.cpp || cmake_object_order_depends_target_partial_dag_generation
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_generation.dir/partial_dag_generation.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_generation.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_generation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_generation
+
+
+#############################################
+# Link the executable test/partial_dag_generation
+
+build test/partial_dag_generation: CXX_EXECUTABLE_LINKER__partial_dag_generation_Debug test/CMakeFiles/partial_dag_generation.dir/partial_dag_generation.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_generation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_generation
+  TARGET_PDB = partial_dag_generation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_isomorphism
+
+
+#############################################
+# Order-only phony target for partial_dag_isomorphism
+
+build cmake_object_order_depends_target_partial_dag_isomorphism: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_isomorphism.dir/partial_dag_isomorphism.cpp.o: CXX_COMPILER__partial_dag_isomorphism_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_isomorphism.cpp || cmake_object_order_depends_target_partial_dag_isomorphism
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_isomorphism.dir/partial_dag_isomorphism.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_isomorphism.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_isomorphism.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_isomorphism
+
+
+#############################################
+# Link the executable test/partial_dag_isomorphism
+
+build test/partial_dag_isomorphism: CXX_EXECUTABLE_LINKER__partial_dag_isomorphism_Debug test/CMakeFiles/partial_dag_isomorphism.dir/partial_dag_isomorphism.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_isomorphism.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_isomorphism
+  TARGET_PDB = partial_dag_isomorphism.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_ser_equivalence
+
+
+#############################################
+# Order-only phony target for partial_dag_ser_equivalence
+
+build cmake_object_order_depends_target_partial_dag_ser_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_ser_equivalence.dir/partial_dag_ser_equivalence.cpp.o: CXX_COMPILER__partial_dag_ser_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_ser_equivalence.cpp || cmake_object_order_depends_target_partial_dag_ser_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_ser_equivalence.dir/partial_dag_ser_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_ser_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_ser_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_ser_equivalence
+
+
+#############################################
+# Link the executable test/partial_dag_ser_equivalence
+
+build test/partial_dag_ser_equivalence: CXX_EXECUTABLE_LINKER__partial_dag_ser_equivalence_Debug test/CMakeFiles/partial_dag_ser_equivalence.dir/partial_dag_ser_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_ser_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_ser_equivalence
+  TARGET_PDB = partial_dag_ser_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target partial_dag_serialization
+
+
+#############################################
+# Order-only phony target for partial_dag_serialization
+
+build cmake_object_order_depends_target_partial_dag_serialization: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/partial_dag_serialization.dir/partial_dag_serialization.cpp.o: CXX_COMPILER__partial_dag_serialization_unscanned_Debug /home/sheng/CLionProjects/percy/test/partial_dag_serialization.cpp || cmake_object_order_depends_target_partial_dag_serialization
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/partial_dag_serialization.dir/partial_dag_serialization.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/partial_dag_serialization.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/partial_dag_serialization.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partial_dag_serialization
+
+
+#############################################
+# Link the executable test/partial_dag_serialization
+
+build test/partial_dag_serialization: CXX_EXECUTABLE_LINKER__partial_dag_serialization_Debug test/CMakeFiles/partial_dag_serialization.dir/partial_dag_serialization.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/partial_dag_serialization.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/partial_dag_serialization
+  TARGET_PDB = partial_dag_serialization.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pd3_ditt_maj_enumerate
+
+
+#############################################
+# Order-only phony target for pd3_ditt_maj_enumerate
+
+build cmake_object_order_depends_target_pd3_ditt_maj_enumerate: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/pd3_ditt_maj_enumerate.dir/pd3_ditt_maj_enumerate.cpp.o: CXX_COMPILER__pd3_ditt_maj_enumerate_unscanned_Debug /home/sheng/CLionProjects/percy/test/pd3_ditt_maj_enumerate.cpp || cmake_object_order_depends_target_pd3_ditt_maj_enumerate
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/pd3_ditt_maj_enumerate.dir/pd3_ditt_maj_enumerate.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/pd3_ditt_maj_enumerate.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/pd3_ditt_maj_enumerate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pd3_ditt_maj_enumerate
+
+
+#############################################
+# Link the executable test/pd3_ditt_maj_enumerate
+
+build test/pd3_ditt_maj_enumerate: CXX_EXECUTABLE_LINKER__pd3_ditt_maj_enumerate_Debug test/CMakeFiles/pd3_ditt_maj_enumerate.dir/pd3_ditt_maj_enumerate.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/pd3_ditt_maj_enumerate.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/pd3_ditt_maj_enumerate
+  TARGET_PDB = pd3_ditt_maj_enumerate.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pd3_ditt_maj_equivalence
+
+
+#############################################
+# Order-only phony target for pd3_ditt_maj_equivalence
+
+build cmake_object_order_depends_target_pd3_ditt_maj_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/pd3_ditt_maj_equivalence.dir/pd3_ditt_maj_equivalence.cpp.o: CXX_COMPILER__pd3_ditt_maj_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/pd3_ditt_maj_equivalence.cpp || cmake_object_order_depends_target_pd3_ditt_maj_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/pd3_ditt_maj_equivalence.dir/pd3_ditt_maj_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/pd3_ditt_maj_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/pd3_ditt_maj_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pd3_ditt_maj_equivalence
+
+
+#############################################
+# Link the executable test/pd3_ditt_maj_equivalence
+
+build test/pd3_ditt_maj_equivalence: CXX_EXECUTABLE_LINKER__pd3_ditt_maj_equivalence_Debug test/CMakeFiles/pd3_ditt_maj_equivalence.dir/pd3_ditt_maj_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/pd3_ditt_maj_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/pd3_ditt_maj_equivalence
+  TARGET_PDB = pd3_ditt_maj_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pd_profiling
+
+
+#############################################
+# Order-only phony target for pd_profiling
+
+build cmake_object_order_depends_target_pd_profiling: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/pd_profiling.dir/pd_profiling.cpp.o: CXX_COMPILER__pd_profiling_unscanned_Debug /home/sheng/CLionProjects/percy/test/pd_profiling.cpp || cmake_object_order_depends_target_pd_profiling
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/pd_profiling.dir/pd_profiling.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/pd_profiling.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/pd_profiling.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pd_profiling
+
+
+#############################################
+# Link the executable test/pd_profiling
+
+build test/pd_profiling: CXX_EXECUTABLE_LINKER__pd_profiling_Debug test/CMakeFiles/pd_profiling.dir/pd_profiling.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/pd_profiling.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/pd_profiling
+  TARGET_PDB = pd_profiling.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target primitive_synthesis
+
+
+#############################################
+# Order-only phony target for primitive_synthesis
+
+build cmake_object_order_depends_target_primitive_synthesis: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/primitive_synthesis.dir/primitive_synthesis.cpp.o: CXX_COMPILER__primitive_synthesis_unscanned_Debug /home/sheng/CLionProjects/percy/test/primitive_synthesis.cpp || cmake_object_order_depends_target_primitive_synthesis
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/primitive_synthesis.dir/primitive_synthesis.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/primitive_synthesis.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/primitive_synthesis.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target primitive_synthesis
+
+
+#############################################
+# Link the executable test/primitive_synthesis
+
+build test/primitive_synthesis: CXX_EXECUTABLE_LINKER__primitive_synthesis_Debug test/CMakeFiles/primitive_synthesis.dir/primitive_synthesis.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/primitive_synthesis.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/primitive_synthesis
+  TARGET_PDB = primitive_synthesis.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target satoko_equivalence
+
+
+#############################################
+# Order-only phony target for satoko_equivalence
+
+build cmake_object_order_depends_target_satoko_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/satoko_equivalence.dir/satoko_equivalence.cpp.o: CXX_COMPILER__satoko_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/satoko_equivalence.cpp || cmake_object_order_depends_target_satoko_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/satoko_equivalence.dir/satoko_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/satoko_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/satoko_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target satoko_equivalence
+
+
+#############################################
+# Link the executable test/satoko_equivalence
+
+build test/satoko_equivalence: CXX_EXECUTABLE_LINKER__satoko_equivalence_Debug test/CMakeFiles/satoko_equivalence.dir/satoko_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/satoko_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/satoko_equivalence
+  TARGET_PDB = satoko_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target std_profiling
+
+
+#############################################
+# Order-only phony target for std_profiling
+
+build cmake_object_order_depends_target_std_profiling: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/std_profiling.dir/std_profiling.cpp.o: CXX_COMPILER__std_profiling_unscanned_Debug /home/sheng/CLionProjects/percy/test/std_profiling.cpp || cmake_object_order_depends_target_std_profiling
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/std_profiling.dir/std_profiling.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/std_profiling.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/std_profiling.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target std_profiling
+
+
+#############################################
+# Link the executable test/std_profiling
+
+build test/std_profiling: CXX_EXECUTABLE_LINKER__std_profiling_Debug test/CMakeFiles/std_profiling.dir/std_profiling.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/std_profiling.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/std_profiling
+  TARGET_PDB = std_profiling.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target synth3_equivalence
+
+
+#############################################
+# Order-only phony target for synth3_equivalence
+
+build cmake_object_order_depends_target_synth3_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/synth3_equivalence.dir/synth3_equivalence.cpp.o: CXX_COMPILER__synth3_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/synth3_equivalence.cpp || cmake_object_order_depends_target_synth3_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/synth3_equivalence.dir/synth3_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/synth3_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/synth3_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target synth3_equivalence
+
+
+#############################################
+# Link the executable test/synth3_equivalence
+
+build test/synth3_equivalence: CXX_EXECUTABLE_LINKER__synth3_equivalence_Debug test/CMakeFiles/synth3_equivalence.dir/synth3_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/synth3_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/synth3_equivalence
+  TARGET_PDB = synth3_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target synth_equivalence
+
+
+#############################################
+# Order-only phony target for synth_equivalence
+
+build cmake_object_order_depends_target_synth_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/synth_equivalence.dir/synth_equivalence.cpp.o: CXX_COMPILER__synth_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/synth_equivalence.cpp || cmake_object_order_depends_target_synth_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/synth_equivalence.dir/synth_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/synth_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/synth_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target synth_equivalence
+
+
+#############################################
+# Link the executable test/synth_equivalence
+
+build test/synth_equivalence: CXX_EXECUTABLE_LINKER__synth_equivalence_Debug test/CMakeFiles/synth_equivalence.dir/synth_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/synth_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/synth_equivalence
+  TARGET_PDB = synth_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target synthesizer
+
+
+#############################################
+# Order-only phony target for synthesizer
+
+build cmake_object_order_depends_target_synthesizer: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/synthesizer.dir/synthesizer.cpp.o: CXX_COMPILER__synthesizer_unscanned_Debug /home/sheng/CLionProjects/percy/test/synthesizer.cpp || cmake_object_order_depends_target_synthesizer
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/synthesizer.dir/synthesizer.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/synthesizer.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/synthesizer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target synthesizer
+
+
+#############################################
+# Link the executable test/synthesizer
+
+build test/synthesizer: CXX_EXECUTABLE_LINKER__synthesizer_Debug test/CMakeFiles/synthesizer.dir/synthesizer.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/synthesizer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/synthesizer
+  TARGET_PDB = synthesizer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target syrup_equivalence
+
+
+#############################################
+# Order-only phony target for syrup_equivalence
+
+build cmake_object_order_depends_target_syrup_equivalence: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/syrup_equivalence.dir/syrup_equivalence.cpp.o: CXX_COMPILER__syrup_equivalence_unscanned_Debug /home/sheng/CLionProjects/percy/test/syrup_equivalence.cpp || cmake_object_order_depends_target_syrup_equivalence
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/syrup_equivalence.dir/syrup_equivalence.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/syrup_equivalence.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/syrup_equivalence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target syrup_equivalence
+
+
+#############################################
+# Link the executable test/syrup_equivalence
+
+build test/syrup_equivalence: CXX_EXECUTABLE_LINKER__syrup_equivalence_Debug test/CMakeFiles/syrup_equivalence.dir/syrup_equivalence.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/syrup_equivalence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/syrup_equivalence
+  TARGET_PDB = syrup_equivalence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target syrup_multi-threading
+
+
+#############################################
+# Order-only phony target for syrup_multi-threading
+
+build cmake_object_order_depends_target_syrup_multi-threading: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/syrup_multi-threading.dir/syrup_multi-threading.cpp.o: CXX_COMPILER__syrup_multi-threading_unscanned_Debug /home/sheng/CLionProjects/percy/test/syrup_multi-threading.cpp || cmake_object_order_depends_target_syrup_multi-threading
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/syrup_multi-threading.dir/syrup_multi-threading.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/syrup_multi-threading.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/syrup_multi-threading.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target syrup_multi-threading
+
+
+#############################################
+# Link the executable test/syrup_multi-threading
+
+build test/syrup_multi-threading: CXX_EXECUTABLE_LINKER__syrup_multi-threading_Debug test/CMakeFiles/syrup_multi-threading.dir/syrup_multi-threading.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/syrup_multi-threading.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/syrup_multi-threading
+  TARGET_PDB = syrup_multi-threading.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target thread_overhead
+
+
+#############################################
+# Order-only phony target for thread_overhead
+
+build cmake_object_order_depends_target_thread_overhead: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/thread_overhead.dir/thread_overhead.cpp.o: CXX_COMPILER__thread_overhead_unscanned_Debug /home/sheng/CLionProjects/percy/test/thread_overhead.cpp || cmake_object_order_depends_target_thread_overhead
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/thread_overhead.dir/thread_overhead.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/thread_overhead.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/thread_overhead.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target thread_overhead
+
+
+#############################################
+# Link the executable test/thread_overhead
+
+build test/thread_overhead: CXX_EXECUTABLE_LINKER__thread_overhead_Debug test/CMakeFiles/thread_overhead.dir/thread_overhead.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/thread_overhead.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/thread_overhead
+  TARGET_PDB = thread_overhead.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target timeout
+
+
+#############################################
+# Order-only phony target for timeout
+
+build cmake_object_order_depends_target_timeout: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/timeout.dir/timeout.cpp.o: CXX_COMPILER__timeout_unscanned_Debug /home/sheng/CLionProjects/percy/test/timeout.cpp || cmake_object_order_depends_target_timeout
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/timeout.dir/timeout.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/timeout.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/timeout.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target timeout
+
+
+#############################################
+# Link the executable test/timeout
+
+build test/timeout: CXX_EXECUTABLE_LINKER__timeout_Debug test/CMakeFiles/timeout.dir/timeout.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/timeout.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/timeout
+  TARGET_PDB = timeout.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target link_test
@@ -898,7 +3006,59 @@ build test/rebuild_cache: phony test/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build aig_synthesis: phony test/aig_synthesis
+
+build arbitrary_fanin: phony test/arbitrary_fanin
+
+build bitset: phony test/bitset
+
+build bmcg_sat_equivalence: phony test/bmcg_sat_equivalence
+
+build cardinality: phony test/cardinality
+
+build cms_equivalence: phony test/cms_equivalence
+
+build cnf_gen: phony test/cnf_gen
+
+build dag_generation: phony test/dag_generation
+
+build dag_generation_starting_point: phony test/dag_generation_starting_point
+
+build dag_isomorphism: phony test/dag_isomorphism
+
+build dag_synth_equivalence: phony test/dag_synth_equivalence
+
+build dag_to_dot: phony test/dag_to_dot
+
+build denormalization: phony test/denormalization
+
+build ditt_equivalence: phony test/ditt_equivalence
+
+build ditt_maj_synthesis: phony test/ditt_maj_synthesis
+
+build dont_cares: phony test/dont_cares
+
+build fence_counting: phony test/fence_counting
+
+build fence_equivalence: phony test/fence_equivalence
+
+build fence_po_filter: phony test/fence_po_filter
+
+build fence_profiling: phony test/fence_profiling
+
+build find_dag_equivalence: phony test/find_dag_equivalence
+
+build floating_dag: phony test/floating_dag
+
+build generate_solutions: phony test/generate_solutions
+
+build generate_struct_solutions: phony test/generate_struct_solutions
+
 build gf16_inverse: phony kitty/examples/gf16_inverse
+
+build glucose_equivalence: phony test/glucose_equivalence
+
+build isomorphic_synth_equivalence: phony test/isomorphic_synth_equivalence
 
 build isop: phony kitty/examples/isop
 
@@ -910,11 +3070,69 @@ build libsyrup.a: phony syrup/libsyrup.a
 
 build link_test: phony test/link_test
 
+build maj_decomposition: phony test/maj_decomposition
+
+build maj_enumerate: phony test/maj_enumerate
+
+build maj_equivalence: phony test/maj_equivalence
+
+build msv_equivalence: phony test/msv_equivalence
+
+build npn_classification: phony test/npn_classification
+
 build npn_enumeration: phony kitty/examples/npn_enumeration
 
 build npn_enumeration_map: phony kitty/examples/npn_enumeration_map
 
 build npn_random: phony kitty/examples/npn_random
+
+build nr_solutions_equivalence: phony test/nr_solutions_equivalence
+
+build parallel_fence_equivalence: phony test/parallel_fence_equivalence
+
+build parallel_fence_generation: phony test/parallel_fence_generation
+
+build parallel_fence_profiling: phony test/parallel_fence_profiling
+
+build parallel_partial_dag_equivalence: phony test/parallel_partial_dag_equivalence
+
+build parallel_partial_dag_profiling: phony test/parallel_partial_dag_profiling
+
+build parallel_partial_dag_ser_equivalence: phony test/parallel_partial_dag_ser_equivalence
+
+build parallel_pd3_ditt_maj_equivalence: phony test/parallel_pd3_ditt_maj_equivalence
+
+build parallel_synthesis: phony test/parallel_synthesis
+
+build partial_dag3_count: phony test/partial_dag3_count
+
+build partial_dag3_ser_equivalence: phony test/partial_dag3_ser_equivalence
+
+build partial_dag_count: phony test/partial_dag_count
+
+build partial_dag_enum_bench: phony test/partial_dag_enum_bench
+
+build partial_dag_enum_equivalence: phony test/partial_dag_enum_equivalence
+
+build partial_dag_equivalence: phony test/partial_dag_equivalence
+
+build partial_dag_generation: phony test/partial_dag_generation
+
+build partial_dag_isomorphism: phony test/partial_dag_isomorphism
+
+build partial_dag_ser_equivalence: phony test/partial_dag_ser_equivalence
+
+build partial_dag_serialization: phony test/partial_dag_serialization
+
+build pd3_ditt_maj_enumerate: phony test/pd3_ditt_maj_enumerate
+
+build pd3_ditt_maj_equivalence: phony test/pd3_ditt_maj_equivalence
+
+build pd_profiling: phony test/pd_profiling
+
+build primitive_synthesis: phony test/primitive_synthesis
+
+build satoko_equivalence: phony test/satoko_equivalence
 
 build spectral_enumeration: phony kitty/examples/spectral_enumeration
 
@@ -922,9 +3140,23 @@ build spectral_enumeration_file: phony kitty/examples/spectral_enumeration_file
 
 build spectral_enumeration_map: phony kitty/examples/spectral_enumeration_map
 
-build synthesis_LUT: phony test/synthesis_LUT
+build std_profiling: phony test/std_profiling
+
+build synth3_equivalence: phony test/synth3_equivalence
+
+build synth_equivalence: phony test/synth_equivalence
+
+build synthesizer: phony test/synthesizer
 
 build syrup: phony syrup/libsyrup.a
+
+build syrup_equivalence: phony test/syrup_equivalence
+
+build syrup_multi-threading: phony test/syrup_multi-threading
+
+build thread_overhead: phony test/thread_overhead
+
+build timeout: phony test/timeout
 
 # =============================================================================
 # Folder targets.
@@ -990,7 +3222,7 @@ build syrup/all: phony syrup/libsyrup.a
 #############################################
 # Folder: /home/sheng/CLionProjects/percy/cmake-build-debug/test
 
-build test/all: phony test/synthesis_LUT test/link_test
+build test/all: phony test/aig_synthesis test/arbitrary_fanin test/bitset test/bmcg_sat_equivalence test/cardinality test/cms_equivalence test/cnf_gen test/dag_generation test/dag_generation_starting_point test/dag_isomorphism test/dag_synth_equivalence test/dag_to_dot test/denormalization test/ditt_equivalence test/ditt_maj_synthesis test/dont_cares test/fence_counting test/fence_equivalence test/fence_po_filter test/fence_profiling test/find_dag_equivalence test/floating_dag test/generate_solutions test/generate_struct_solutions test/glucose_equivalence test/isomorphic_synth_equivalence test/maj_decomposition test/maj_enumerate test/maj_equivalence test/msv_equivalence test/npn_classification test/nr_solutions_equivalence test/parallel_fence_equivalence test/parallel_fence_generation test/parallel_fence_profiling test/parallel_partial_dag_equivalence test/parallel_partial_dag_profiling test/parallel_partial_dag_ser_equivalence test/parallel_pd3_ditt_maj_equivalence test/parallel_synthesis test/partial_dag3_count test/partial_dag3_ser_equivalence test/partial_dag_count test/partial_dag_enum_bench test/partial_dag_enum_equivalence test/partial_dag_equivalence test/partial_dag_generation test/partial_dag_isomorphism test/partial_dag_ser_equivalence test/partial_dag_serialization test/pd3_ditt_maj_enumerate test/pd3_ditt_maj_equivalence test/pd_profiling test/primitive_synthesis test/satoko_equivalence test/std_profiling test/synth3_equivalence test/synth_equivalence test/synthesizer test/syrup_equivalence test/syrup_multi-threading test/thread_overhead test/timeout test/link_test
 
 # =============================================================================
 # Built-in targets
