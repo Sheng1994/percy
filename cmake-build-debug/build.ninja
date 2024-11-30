@@ -785,6 +785,40 @@ build examples/rebuild_cache: phony examples/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target synthesis_LUT
+
+
+#############################################
+# Order-only phony target for synthesis_LUT
+
+build cmake_object_order_depends_target_synthesis_LUT: phony || cmake_object_order_depends_target_libabcsat cmake_object_order_depends_target_syrup
+
+build test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o: CXX_COMPILER__synthesis_LUT_unscanned_Debug /home/sheng/CLionProjects/percy/test/synthesis_LUT.cpp || cmake_object_order_depends_target_synthesis_LUT
+  DEFINES = -DABC_NAMESPACE=pabc -DABC_NO_USE_READLINE -DDISABLE_NAUTY -DDISABLE_SATOKO -DLIN64 -DUSE_SYRUP
+  DEP_FILE = test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o.d
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/sheng/CLionProjects/percy/include -I/home/sheng/CLionProjects/percy/kitty/include -I/home/sheng/CLionProjects/percy/abc -I/home/sheng/CLionProjects/percy/syrup/.. -I/home/sheng/CLionProjects/percy/syrup
+  OBJECT_DIR = test/CMakeFiles/synthesis_LUT.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/synthesis_LUT.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target synthesis_LUT
+
+
+#############################################
+# Link the executable test/synthesis_LUT
+
+build test/synthesis_LUT: CXX_EXECUTABLE_LINKER__synthesis_LUT_Debug test/CMakeFiles/synthesis_LUT.dir/synthesis_LUT.cpp.o | /usr/lib/x86_64-linux-gnu/libz.so abc/liblibabcsat.a syrup/libsyrup.a || abc/liblibabcsat.a syrup/libsyrup.a
+  FLAGS = -Wall -pedantic -fPIC  -DLIN64 -DDISABLE_NAUTY -g -Wall -Wextra -Wno-unused-function -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libz.so  abc/liblibabcsat.a  syrup/libsyrup.a  -lpthread
+  OBJECT_DIR = test/CMakeFiles/synthesis_LUT.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test/synthesis_LUT
+  TARGET_PDB = synthesis_LUT.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target link_test
 
 
@@ -888,6 +922,8 @@ build spectral_enumeration_file: phony kitty/examples/spectral_enumeration_file
 
 build spectral_enumeration_map: phony kitty/examples/spectral_enumeration_map
 
+build synthesis_LUT: phony test/synthesis_LUT
+
 build syrup: phony syrup/libsyrup.a
 
 # =============================================================================
@@ -954,7 +990,7 @@ build syrup/all: phony syrup/libsyrup.a
 #############################################
 # Folder: /home/sheng/CLionProjects/percy/cmake-build-debug/test
 
-build test/all: phony test/link_test
+build test/all: phony test/synthesis_LUT test/link_test
 
 # =============================================================================
 # Built-in targets

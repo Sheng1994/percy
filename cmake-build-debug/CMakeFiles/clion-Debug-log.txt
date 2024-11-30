@@ -1,4 +1,5 @@
 /snap/clion/305/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/305/bin/ninja/linux/x64/ninja -G Ninja -S /home/sheng/CLionProjects/percy -B /home/sheng/CLionProjects/percy/cmake-build-debug
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
 CMake Deprecation Warning at kitty/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -7,6 +8,6 @@ CMake Deprecation Warning at kitty/CMakeLists.txt:1 (cmake_minimum_required):
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (0.7s)
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/sheng/CLionProjects/percy/cmake-build-debug

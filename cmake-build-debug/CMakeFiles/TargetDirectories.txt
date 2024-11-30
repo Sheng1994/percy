@@ -32,6 +32,7 @@
 /home/sheng/CLionProjects/percy/cmake-build-debug/examples/CMakeFiles/test.dir
 /home/sheng/CLionProjects/percy/cmake-build-debug/examples/CMakeFiles/edit_cache.dir
 /home/sheng/CLionProjects/percy/cmake-build-debug/examples/CMakeFiles/rebuild_cache.dir
+/home/sheng/CLionProjects/percy/cmake-build-debug/test/CMakeFiles/synthesis_LUT.dir
 /home/sheng/CLionProjects/percy/cmake-build-debug/test/CMakeFiles/link_test.dir
 /home/sheng/CLionProjects/percy/cmake-build-debug/test/CMakeFiles/test.dir
 /home/sheng/CLionProjects/percy/cmake-build-debug/test/CMakeFiles/edit_cache.dir
